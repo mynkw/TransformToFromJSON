@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\TransformToFromJSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DD032B-B1E5-4F0B-A681-B4FCC9A0EC29}|TransformToFromJSON.csproj|d:\\projects\\transformtofromjson\\controllers\\xmljsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6DD032B-B1E5-4F0B-A681-B4FCC9A0EC29}|TransformToFromJSON.csproj|solutionrelative:controllers\\xmljsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6DD032B-B1E5-4F0B-A681-B4FCC9A0EC29}|TransformToFromJSON.csproj|d:\\projects\\transformtofromjson\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6DD032B-B1E5-4F0B-A681-B4FCC9A0EC29}|TransformToFromJSON.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XmlJSONController.cs",
+              "DocumentMoniker": "D:\\Projects\\TransformToFromJSON\\Controllers\\XmlJSONController.cs",
+              "RelativeDocumentMoniker": "Controllers\\XmlJSONController.cs",
+              "ToolTip": "D:\\Projects\\TransformToFromJSON\\Controllers\\XmlJSONController.cs",
+              "RelativeToolTip": "Controllers\\XmlJSONController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:04:46.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\Projects\\TransformToFromJSON\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\Projects\\TransformToFromJSON\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:03:08.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
