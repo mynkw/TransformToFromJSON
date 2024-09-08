@@ -52,5 +52,28 @@ namespace TransformToFromJSON.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
+        [HttpPost]
+        [Route("api/XmlJSON/JSON2XML")]
+        public HttpResponseMessage JSON2XMLWithCustomRoot(dynamic request)
+        {
+            string json = string.Empty;
+            try
+            {
+                string ijson = JsonConvert.SerializeObject(request);
+                dynamic data = JObject.Parse(ijson);
+                string CustomRoot = data.Root;
+                XNode node = JsonConvert.DeserializeXNode(ijson, CustomRoot);
+                return new HttpResponseMessage()
+                {
+                    Content = new StringContent(node.ToString(), Encoding.UTF8, "application/xml")
+                };
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
     }
 }
